@@ -1,0 +1,297 @@
+/* Fonts */
+/* latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Montserrat Thin'), local('Montserrat-Thin'), url(https://fonts.gstatic.com/s/montserrat/v14/JTUQjIg1_i6t8kCHKm45_QpRyS7m.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Montserrat Light'), local('Montserrat-Light'), url(https://fonts.gstatic.com/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_cJD3gnD_g.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Karla'), local('Karla-Regular'), url(https://fonts.gstatic.com/s/karla/v8/qkBbXvYC6trAT7RVLtw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+    
+
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.full-header
+{
+    margin: 0 0 0 0;
+    /* padding-top: 32vh; */
+   height: 100vh;
+    /* linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%) */
+    background-image:  url("./img/teth_images/nathan-dumlao-NAt_DQ-TyEY-unsplash2.jpg");
+    background-color: #212529;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: 1;
+    position: relative;
+    z-index: 10;
+}
+h1 {
+    font-size: 2.5em;
+}
+@media only screen and (max-width:480px), (max-height:320px){
+    h1 {
+        font-size: 1.75em;
+    }
+    .full-header h2{
+        font-size: 1em;
+    }
+    .full-header h6{
+        font-size: 0.75em;
+    }
+}
+h1,h2,h3
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    line-height: 1.9em;
+    letter-spacing: 0.25em;
+    color: #727273;
+    box-shadow: #1d1d1d;
+}
+h4,h5,h6
+{
+    color: #494949;
+    font-family: 'Karla', sans-serif;
+    line-height: 1.7;
+}
+h2
+{
+    text-transform: uppercase;
+    font-size: 1.25em;
+    letter-spacing: 0.375em;
+}
+
+h5
+{
+    letter-spacing: 0.1em;
+    font-size: 1em;
+}
+h6{
+    letter-spacing: 0.25em;
+    font-size: 1em;
+    color:  #727273;
+    line-height: 1.9;
+}
+nav
+{
+    box-shadow: 0 5px 15px -4px rgba(0,0,0,.28);
+}
+li{
+    padding-right: 5px;
+    font-family: 'Karla', sans-serif;
+}
+footer{
+    background-color: #343a40;
+    color: rgb(170, 169, 169);
+    margin: 0 0;
+}
+a{
+  
+    letter-spacing: 3px;
+    color: rgb(131, 131, 131);
+    text-align: center;
+}
+a:hover {
+    color:  rgb(151, 150, 150);
+}
+svg{
+    opacity: 0.9;
+    height:32px;
+    width: 32px;
+    transition-duration: 0.7s;
+    -webkit-transition: 0.7s;
+    transition-timing-function: ease;
+}
+svg:hover{
+   
+    filter: invert(90%);
+}
+
+b{
+    letter-spacing: 3.5px;
+}
+
+ul li {
+    list-style-type: none;
+}
+.header-title{
+    display: block;
+   
+    text-align: center;
+    padding-bottom: 10vh !important;
+    height: 100%;
+}
+
+#about img {
+    margin:5vh 50% 0;
+    height: 40px;
+    transform: translate(-50%);
+    opacity: 0.8;
+}
+
+.pagecontent
+{
+    background-image: url("./img/teth_images/rodrigo-mtorres-GdoOJ0NI5So-unsplash.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+#impressum-nav {
+    margin: 0px;
+    width:100%;
+    padding: 0px; 
+    left:0;
+    right: 0;
+    top:0;
+    position: fixed;
+    z-index: 10;
+}
+.impressum {
+    box-sizing: border-box;
+    padding: 2em;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    opacity: 0.9;
+    overflow: hidden;
+    background-color: #d0d0d0;
+    border-radius: 0.3em;
+       
+}
+@media only screen and (max-width:420px) {
+    .impressum h2,.impressum .klein {
+        letter-spacing: 1px!important; 
+        font-size: 0.95em!important;
+    }
+    .impressum h1{
+        letter-spacing: 2px;
+        font-size: 2em;
+    }
+    .impressum a{
+        display: block;
+        font-size: 0.85em;
+        align-content: flex-start;
+    }
+    .impressum h4 {
+        font-size: 1.2rem;
+    }
+}
+.imp-page {
+    background-image: url("../img/teth_images/rodrigo-mtorres-GdoOJ0NI5So-unsplash.jpg");
+    width: 100%;
+    height: auto;
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+    z-index: 1;
+
+}
+
+.fullnav{
+    margin: 0px;
+    width:100%;
+    padding: 0px; 
+    left:0px;right: 0;
+    bottom:0;
+    position: absolute;
+}
+
+
+
+.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    
+}   
+
+
+/* symbol----------------------- */
+.hebrew_teth{
+    filter: invert(100%); 
+    opacity: 0.7;
+    width: 20px;
+    height: 40px;
+}  
+.hebrew_teth:hover{
+    opacity: 1;
+}
+
+.circle{
+    filter: invert(100%);
+    opacity: 0.8;
+    width: 40px;
+    height: 40px;
+}
+.circle:hover{
+    opacity: 1;
+}
+/* symbol end----------------------- */
+
+.card0
+{
+    padding-top: 2vh;
+    
+}
+.card1 {
+    padding-top: 10vh;
+}
+.card
+{
+    border: none;
+    box-shadow: 0 5px 15px -4px rgba(0,0,0,.16);
+    opacity: 0.93;
+    background-color: #f0eeee;
+    
+}
+.card-header
+{
+    text-align: center; 
+    background-color: rgba(0, 0, 0, 0.93);
+    color: #d0d0d0;
+}
+.card-title{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.cr-impressum{
+    /* border-left: 2px solid rgba(102, 102, 102, 0.267); */
+    border-right: 2px solid rgba(0, 0, 0, 0.1);;
+    font-size: 12px;
+    color: rgb(170, 169, 169)
+   
+}
+
+
+
+
