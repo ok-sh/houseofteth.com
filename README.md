@@ -1,6 +1,6 @@
 ## houseofteth
 
-an example portfoliosite for a zen-yoga teacher.
+an example portfolio website for a zen-yoga teacher.
 
 vanillajs + bootstrap
 
