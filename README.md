@@ -1,4 +1,4 @@
-##houseofteth
+## houseofteth
 
 an example portfoliosite for a zen-yoga teacher.
 
